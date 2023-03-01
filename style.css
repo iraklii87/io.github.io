@@ -79,7 +79,7 @@ color: #FFFFFF;
 
 }
 
-.about p{
+.about h1{
     font-family: 'Morn-BoldOblique';
     font-style: normal;
     font-weight: 400;
@@ -88,7 +88,7 @@ color: #FFFFFF;
     color: #FFFFFF;
 }
 
-.about p span{
+.about h1 span{
     color: #C3F302;
 }
 
