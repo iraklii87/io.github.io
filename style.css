@@ -98,7 +98,35 @@ color: #FFFFFF;
     cursor: pointer;
 }
 
+.glowing {
+    animation: glowing 5s infinite;
+    position: relative;
+}
 
+
+ @keyframes glowing {
+    0%{
+        opacity: 1;
+    }
+    39%{
+        opacity: 1;
+    }
+    40%{
+        opacity: 0;
+    }
+    42%{
+        opacity: 1;
+    }
+    44%{
+        opacity: 0;
+    }
+    45%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
 
 
 /* portfolio */
@@ -114,6 +142,7 @@ color: #FFFFFF;
 
 .item img{
     width: 100%;
+    border-radius: 2px;
 }
 
 
