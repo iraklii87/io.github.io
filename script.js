@@ -14,7 +14,7 @@ development.forEach(function(value){
               <h1>${value.title}</h1>
               <p>${value.desc}</p>
 
-              <a href="${value.url}"><img src="img/open_in_new.svg" alt="">${value.urltext}</a>
+              <a class="${value.disabled}" aria-disabled="true" href="${value.url}"><img src="img/open_in_new.svg" alt="">${value.urltext}</a>
           </div>
       </div>
   </div>
